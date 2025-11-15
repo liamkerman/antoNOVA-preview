@@ -1,0 +1,1 @@
+import{S as o}from"./site-wrapper.component-Bmr5IdnT.js";import{b as p,C as a,F as c}from"./index-hehcb5av.js";class t{static ɵfac=function(e){return new(e||t)};static ɵcmp=p({type:t,selectors:[["app-not-found"]],decls:1,vars:0,template:function(e,s){e&1&&c(0,"app-site-wrapper")},dependencies:[a,o],encapsulation:2,changeDetection:0})}export{t as NotFoundComponent};
