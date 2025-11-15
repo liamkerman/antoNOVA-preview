@@ -8,7 +8,9 @@
     "test": "nx test",
     "dev": "nx run antonova-web:serve",
     "dist": "nx build antonova-web --configuration=production",
-    "dist:preview": "cross-env BASE_HREF=/antoNOVA-preview/ nx build antonova-web --configuration=preview"
+    "dist:preview": "cross-env BASE_HREF=/antoNOVA-preview/ nx build antonova-web --configuration=preview",
+    "preview": "nx run antonova-web:build:production && vite preview --outDir dist/antonova-web",
+    "serve:dist": "nx run antonova-web:serve-static"
   },
   "private": true,
   "dependencies": {
