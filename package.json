@@ -9,8 +9,10 @@
     "dev": "nx run antonova-web:serve",
     "dist": "nx build antonova-web --configuration=production",
     "dist:preview": "cross-env BASE_HREF=/antoNOVA-preview/ nx build antonova-web --configuration=preview",
-    "preview": "nx run antonova-web:build:production && vite preview --outDir dist/antonova-web",
-    "serve:dist": "nx run antonova-web:serve-static"
+    "preview": "vite preview --outDir dist/antonova-web",
+    "preview:build": "npm run dist && npm run preview",
+    "serve:dist": "nx run antonova-web:serve-static",
+    "publish": "npm run dist && node scripts/publish-preview.js"
   },
   "private": true,
   "dependencies": {
