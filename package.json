@@ -12,7 +12,7 @@
     "preview": "vite preview --outDir dist/antonova-web",
     "preview:build": "npm run dist && npm run preview",
     "serve:dist": "nx run antonova-web:serve-static",
-    "publish": "npm run dist && node scripts/publish-preview.js"
+    "publish": "npm run dist:preview && node scripts/publish-preview.js"
   },
   "private": true,
   "dependencies": {
