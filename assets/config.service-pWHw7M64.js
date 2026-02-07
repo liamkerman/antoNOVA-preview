@@ -1,1 +1,0 @@
-import{a3 as n}from"./index-Bw44dFO8.js";const r="stay-loggy",e="https://antonova.test",c={loggingSecret:r,wpApiUrl:e};class t{#t=c;get loggingSecret(){return this.#t.loggingSecret}get wpApiUrl(){return this.#t.wpApiUrl}static ɵfac=function(o){return new(o||t)};static ɵprov=n({token:t,factory:t.ɵfac,providedIn:"root"})}export{t as C};
