@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
+    "start:vite": "vite",
     "build": "nx build",
     "test": "nx test",
     "dev": "nx run antonova-web:serve",
